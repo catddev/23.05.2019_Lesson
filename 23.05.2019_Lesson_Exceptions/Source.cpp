@@ -69,7 +69,6 @@ int main() {
 	catch (out_of_range err) {
 		cout << err.what();
 	}
-
 	//после try-catch остальная прога спокойно работает дальше
 	cout << mv[2] << endl;
 
